@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="icon" href="./assets/icono.png" />
+    <title>Carrito</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-wrapper teal lighten-2">
+          <a href="./index.html" class="brand-logo">
+            <img src="./assets/Logo.png" width="64px" alt="logo" class="logo" />
+          </a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="./">Carrito</a></li>
+          </ul>
+        </div>
+      </nav>
+      <nav>
+        <div class="nav-wrapper teal lighten-3">
+          <div class="col s12">
+            <a href="./index.html" class="breadcrumb">Home</a>
+            <a href="./personalizar.html" class="breadcrumb">Personalizar</a>
+            <a href="./carrito.html" class="breadcrumb">Carrito</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="container">
+      <div class="col s12 m7">
+        <h2 class="header">Carrito</h2>
+        <div class="card horizontal">
+          <div class="card-image">
+            <img
+              src="https://cdn.shopify.com/s/files/1/0262/5080/5306/products/ONL_ELGLOBO_CheescakeCorazo_un_2_400x.jpg?v=1643132702"
+            />
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <p>Cheesecake corazon</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h3>Total: $39</h3>
+      <p>Por favor agrega la direccion de entrega</p>
+      <div class="row">
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s6">
+              <input
+                placeholder="Nombre"
+                id="first_name"
+                type="text"
+                class="validate"
+              />
+              <label for="first_name"></label>
+            </div>
+            <div class="input-field col s6">
+              <input
+                placeholder="Apellido"
+                id="last_name"
+                type="text"
+                class="validate"
+              />
+              <label for="last_name"></label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s6">
+              <input
+                id="email"
+                type="email"
+                class="validate"
+                placeholder="Email"
+              />
+              <label for="email"></label>
+            </div>
+            <div class="input-field col s6">
+              <input
+                placeholder="Telefono"
+                id="phone"
+                type="tel"
+                class="validate"
+              />
+              <label for="phone"></label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input
+                placeholder="Direccion"
+                id="direccion"
+                type="text"
+                class="validate"
+              />
+              <label for="direccion"></label>
+            </div>
+            <a
+              href="./confirmacion.html"
+              class="waves-effect waves-light btn center"
+              >Pagar</a
+            >
+          </div>
+        </form>
+      </div>
+    </main>
+    <footer class="page-footer teal lighten-2">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Footer Content</h5>
+            <p class="grey-text text-lighten-4">
+              You can use rows and columns here to organize your footer content.
+            </p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Links</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          © 2014 Copyright Text
+          <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

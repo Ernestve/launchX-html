@@ -9,7 +9,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
     />
     <link rel="icon" href="./assets/icono.png" />
-    <title>Cake Bakery</title>
+    <title>Personalizalo</title>
   </head>
   <body>
     <header>
@@ -27,12 +27,13 @@
         <div class="nav-wrapper teal lighten-3">
           <div class="col s12">
             <a href="./index.html" class="breadcrumb">Home</a>
+            <a href="./personalizar.html" class="breadcrumb">Personalizar</a>
           </div>
         </div>
       </nav>
     </header>
     <main class="container">
-      <h2>Bakery Shop</h2>
+      <h2>Personaliza tu pastel</h2>
       <div class="row">
         <div class="col s4">
           <div class="card">
@@ -46,42 +47,44 @@
               <p>$39</p>
             </div>
             <div class="card-action">
-              <a href="./personalizar.html">Personalizar</a>
+              <a href="./carrito.html">Agregar a carrito</a>
             </div>
           </div>
         </div>
-        <div class="col s4">
-          <div class="card">
-            <div class="card-image">
-              <img
-                src="https://cdn.shopify.com/s/files/1/0262/5080/5306/products/ONL_ELGLOBO_PastelOteloCorazo_un_2_400x.jpg?v=1643133202"
-              />
-              <span class="card-title">Otelo corazon</span>
-            </div>
-            <div class="card-content">
-              <p>$138</p>
-            </div>
-            <div class="card-action">
-              <a href="./personalizar.html">Personalizar</a>
-            </div>
-          </div>
-        </div>
-        <div class="col s4">
-          <div class="card">
-            <div class="card-image">
-              <img
-                src="https://cdn.shopify.com/s/files/1/0262/5080/5306/products/ONL_ELGLOBO_GaribaldiRosaCorazo_un_2_400x.jpg?v=1643133162"
-              />
-              <span class="card-title">Garibaldi corazon rosa</span>
-            </div>
-            <div class="card-content">
-              <p>$24</p>
-            </div>
-            <div class="card-action">
-              <a href="./personalizar.html">Personalizar</a>
-            </div>
-          </div>
-        </div>
+        <form class="col s4">
+          <p>
+            <label>
+              <input type="checkbox" class="filled-in" checked="checked" />
+              <span>Filled in</span>
+            </label>
+          </p>
+        </form>
+        <form class="col s4">
+          <p>
+            <label>
+              <input name="group1" type="radio" />
+              <span>Red</span>
+            </label>
+          </p>
+          <p>
+            <label>
+              <input name="group1" type="radio" />
+              <span>Yellow</span>
+            </label>
+          </p>
+          <p>
+            <label>
+              <input name="group1" type="radio" />
+              <span>Green</span>
+            </label>
+          </p>
+          <p>
+            <label>
+              <input name="group1" type="radio" />
+              <span>Brown</span>
+            </label>
+          </p>
+        </form>
       </div>
     </main>
     <footer class="page-footer teal lighten-2">
